@@ -1,3 +1,5 @@
+for flake integration, all repos in this organization rely on `v_flakes`, eg:
+```md
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/da5ad661ba4e5ef59ba743f0d112cbc30e474f32";
@@ -19,3 +21,12 @@
         };
       });
 }
+```
+
+`.envrc` is considered part of the shared repo setup, and thus committed. Eg:
+```.envrc
+# Only activate the flake devShell at the repo root, not in subdirectories.
+if [ "$PWD" = "$(expand_path .)" ]; then
+  flake . --no-pure-eval
+fi
+```
