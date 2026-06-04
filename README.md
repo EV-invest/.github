@@ -1,5 +1,3 @@
-# .github
-
 The single source of truth for shared standards at **EV Invest**.
 
 This repository holds the conventions, brand assets, and tooling configs that
