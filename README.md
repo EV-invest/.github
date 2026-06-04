@@ -1,13 +1,11 @@
-# shared
+# .github
 
-Organization-wide standards and shared resources for EV-invest projects.
+The single source of truth for shared standards at **EV Invest**.
 
-## Contents
+This repository holds the conventions, brand assets, and tooling configs that
+other repos in the organization reuse — so things like commit rules, formatter
+configs, the dev environment, and the brand look stay consistent everywhere.
 
-| Path | Description |
-| ---- | ----------- |
-| `conventions/GIT_CONVENTION.md` | Git commit format, branch naming, tags, and SemVer rules |
+It also provides GitHub org defaults (issue/PR templates and the public profile).
 
-## Purpose
-
-This repository is the single source of truth for cross-team conventions. All projects in the organization follow the standards defined here. When a convention changes, update it here first.
+See [ARCHITECTURE.md](ARCHITECTURE.md) for how it's organized.
