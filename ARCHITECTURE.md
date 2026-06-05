@@ -1,4 +1,10 @@
-# Architecture
+This repository holds the conventions, brand assets, and tooling configs that
+other repos in the organization reuse — so things like commit rules, formatter
+configs, the dev environment, and the brand look stay consistent everywhere.
+
+It also provides GitHub org defaults (issue/PR templates and the public profile).
+
+# Structure
 
 The repository is organized into **layers → slices → segments**, inspired by
 Feature-Sliced Design. Each level has a strict responsibility, and dependencies
