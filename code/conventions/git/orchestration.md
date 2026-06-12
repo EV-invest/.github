@@ -4,6 +4,7 @@ task management happens through Zenhub
 sprints are self-imposed deadlines; while actual hard ones caused by external factors, are expressed via milestones.
 
 ![`estimate` section](../../../assets/zenhub_story_points.png) on issues, which they call "Story Points", under our system means apprx number of hours required.
+All opened issues should have an estimate attached. Use the **upper** part of the range when not certain.
 Very large features can omit it, which would imply that pre-selected sizes are not sufficiently large to cover the expected scope. This is only allowed if the issue has children, and raises questions on why it's not instead a milestone, (through which epics are normally handled).
 
 all tasks past product backlog (sprint backlog and active), must have a person assigned.
