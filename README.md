@@ -34,6 +34,8 @@ Source of truth of task mgmt.
 
 Standards for working with code are in ./code
 
+> remember that nobody gets to {critique or request changing} any part of conventions/styles you're using, outside of what is covered here.
+
 ## Glossary
 
 It is easier to move fast if we all have shared understanding of the scope of our work; and a number of key resource references, that we can assume everyone is familiar with.
