@@ -1,6 +1,6 @@
 # Git Commit Convention
 
-> Standard v2.0.0
+> Standard v2.1.0
 
 ---
 
@@ -67,6 +67,8 @@ Version format: **`MAJOR.MINOR.PATCH`**
 | PATCH | `fix`, `perf`, `revert`                                     |
 | none  | `refactor`, `docs`, `style`, `test`, `build`, `ci`, `chore` |
 
+> None of this applies under v1.0.0 version, - development until that point is considered to be in alpha stage, and worrying about breaking anything is unnecessary; at most warranting a minor version bump.
+
 ---
 
 ## Release tag
@@ -89,4 +91,4 @@ Tag format: `v{major}.{minor}.{patch}`. No dedicated release commit required.
 - When parsing commit history, it should be possible to have intuition about significance of changes from commit length alone.
 - Similarly, tag also can be omitted, if changes are not important, or are outside of the framework.
 
-> therefore, when fixing a type, the following commits are valid: `chore: _`
+> therefore, when fixing a typo, as little as the following commit message is valid: `_`
