@@ -6,8 +6,10 @@ sprints are self-imposed deadlines; while actual hard ones caused by external fa
 ![`estimate` section](../../../assets/zenhub_story_points.png) on issues, which they call "Story Points", under our system means apprx number of hours required.
 Very large features can omit it, which would imply that pre-selected sizes are not sufficiently large to cover the expected scope. This is only allowed if the issue has children, and raises questions on why it's not instead a milestone, (through which epics are normally handled).
 
-people are assigned to the task only when this piece of work becomes active, and their action is expected. Don't assign roles while the item is in the backlog.
-> you are expected to be aware of all your github notifications, and keep your active ZenHub tasks' sorting up-to-date
+all tasks past product backlog (sprint backlog and active), must have a person assigned.
+However, no such rule exists for tasks oustide, - new issues can be created and kept without anyone yet assigned to them.
+Be mindful of intent, - once you assign someone to an issue, they take its ownership. And only one person can be assigned to any one issue (if part of the implementation needs to be delegated, it should be done through creation of a child issue for that part of the work). <!--Done to drive strict ownership of all features. Absence of distinct leader on any task will lead to delegation of responsibility by all participants-->
+> you are expected to be aware of all your github notifications, and keep sorting of your Zenhub tasks up-to-date
 
 ## Labels
 Zenhub's `Priority` labels are to be used always, while `Task Type` is never to be marked.
