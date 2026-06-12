@@ -1,8 +1,8 @@
 The single source of truth for shared standards and organization of **EV Investment fund**.
 
-# Org
+## Org
 
-## Collaboration
+### Collaboration
 
 All collaboration is organized github-first.
 
@@ -12,7 +12,7 @@ Even if it's something disconnected from code; like a marketing campaign, or sea
 Because we force code as source of truth, we are able to attach collaboration primitives for free with [Zenhub](https://app.zenhub.com/workspaces/packaging-6a0db85e94cac6001cc5e9ab/board).
 Source of truth of task mgmt.
 
-## Communication
+### Communication
 
 - Unstructured communication happens on Discord. \
   This includes `#daily-updates` channel, and topic-sorted considerations outside of it. Dev alerts also have their section, - everything that developers need to be aware of, should be routed there.
@@ -30,11 +30,11 @@ Source of truth of task mgmt.
   An issue/idea doesn't exist until it is logged on github.
   Then all further discussion happens under it, and related concerns link to it.
 
-## [Code](./code)
+### [Code](./code)
 
 Standards for working with code are in ./code
 
-# Glossary
+## Glossary
 
 It is easier to move fast if we all have shared understanding of the scope of our work; and a number of key resource references, that we can assume everyone is familiar with.
 
@@ -44,7 +44,7 @@ It is easier to move fast if we all have shared understanding of the scope of ou
 
 - TODO: adapt [How to Succeed at MrBeast Productions](https://drive.google.com/file/d/1YaG9xpu-WQKBPUi8yQ4HaDYQLUSa7Y3J/view) to our scope
 
-# KPIs
+## KPIs
 
 Everything we do must impact either:
 
@@ -54,7 +54,7 @@ Everything we do must impact either:
 
 That's it. If you cannot articulate how a task will impact one of these, it is not to be done.
 
-# Principles
+## Principles
 
 - Build in the open. \
   Work happens faster the more knowledgeable each contributor is.
@@ -76,6 +76,6 @@ That's it. If you cannot articulate how a task will impact one of these, it is n
   We will never force {instructions, acceptance of terms of service / cookies, forced animations, click-through scaffoldings, "are you sure" popups, etc} upon users.
   Every single {click / second} saved, neccessary for a client to {give / keep giving} us money, is an enormous win.
 
-# Dev
+## Dev
 
 See [ARCHITECTURE.md](ARCHITECTURE.md) for this repo's organization, before making changes.
