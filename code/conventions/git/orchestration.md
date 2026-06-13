@@ -20,16 +20,16 @@ instead of `Task Type` labels, we define [strict categorical buckets](https://gi
 following buckets exist:
 
 - `type` \
-  top-level distinction of __what does working on the issue entails__: {`type:task`, `type:bug`, `type:enhancement`, `type:decision`}
+  top-level distinction of __what does working on the issue entails__: {`t:task`, `t:bug`, `t:enhancement`, `t:question`} // `question` is a unification of what could've been `type:decide` + `type:explore`.
   These are shared across all repos; are mutually exclusive; and are obligatory for selection when opening the issue.
 
 - `category` \
   issue's classification: {`cat:docs`, `cat:test`, `cat:ci`, `cat:perf`, etc}
-  Their base is synchronized across all repos, but each can and should define more, for categories specific to its domain.
+  Specifying is optional; their base is synchronized across all repos, but each can and should define more, for categories specific to its domain.
 
 - `external` \
-  meta tags for external sorting/presentation/integrations, like {`external:good-first-issue`, `external:help-wanted`, `external:wontfix`}
-  Adding them is optional; synced across all repos.
+  meta tags for external sorting/presentation/integrations, like {`ext:good-first-issue`, `ext:help-wanted`, `ext:wontfix`}
+  Specifying them is optional; synced across all repos.
 
 ## Time Tracking
 [Clockify](https://app.clockify.me/calendar) will be integrated later. Manually using it is not realistic, so blocked by tooling automation. <!--Partial implementation already exists in https://github.com/valeratrades/tedi-->
