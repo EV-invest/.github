@@ -80,4 +80,4 @@ That's it. If you cannot articulate how a task will impact one of these, it is n
 
 ## Dev
 
-See [ARCHITECTURE.md](ARCHITECTURE.md) for this repo's organization, before making changes.
+See [ARCHITECTURE.md](docs/ARCHITECTURE.md) for this repo's organization, before making changes.
