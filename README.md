@@ -12,6 +12,9 @@ Even if it's something disconnected from code; like a marketing campaign, or sea
 Because we force code as source of truth, we are able to attach collaboration primitives for free with [Zenhub](https://app.zenhub.com/workspaces/packaging-6a0db85e94cac6001cc5e9ab/board).
 Source of truth of task mgmt.
 
+Current company operations bottleneck is defined in https://github.com/EV-invest/.github/milestone/1
+> CEO is in charge of keeping it up-to-date. If you see that it isn't, - report and get him to update <!--TODO: gotta figure out some compensation structure for noticing these things-->
+
 ### Communication
 
 - Unstructured communication happens on Discord. \
