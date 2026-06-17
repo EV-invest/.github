@@ -33,6 +33,8 @@ Current company operations bottleneck is defined in https://github.com/EV-invest
   An issue/idea doesn't exist until it is logged on github.
   Then all further discussion happens under it, and related concerns link to it.
 
+> when referencing internal projects in speech, some names can be abbreviated; - an up-to-date glossary can be found here: [./docs/GLOSSARY.md]
+
 ### [Code](./code)
 
 Standards for working with code are in ./code
